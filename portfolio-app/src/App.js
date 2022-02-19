@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import '../src/styles/App.css'
 import '../src/styles/app_layout.css'
+import HomePage from './Pages/HomePage';
 
 export default function App() {
   return (
@@ -10,7 +11,9 @@ export default function App() {
         <NavBar />
       </div>
       <div className="main-content">
-        
+        <div className="content"> 
+            <HomePage/>
+          </div>
       </div>
     </div>
   )
