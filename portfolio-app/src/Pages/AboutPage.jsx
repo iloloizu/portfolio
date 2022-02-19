@@ -16,19 +16,21 @@ export default function AboutPage() {
       <ImageSelection />
             <Title title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Ruby'} progress={'30%'} width={'30%'} />
-                <SkillsSection skill={'React JS'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'SQLite'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Adobe Photoshop'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={''} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/UX Design'} progress={'76%'} width={'76%'} />
-                <SkillsSection skill={'Adobe Premier Pro'} progress={'76%'} width={'76%'} />
+                <SkillsSection skill={'Javascript'} progress={'75%'} length={'75%'} />
+                <SkillsSection skill={'Ruby'} progress={'60%'} length={'60%'} />
+                <SkillsSection skill={'ReactJS'} progress={'75%'} length={'75%'} />
+                <SkillsSection skill={'SQLite'} progress={'40%'} length={'40%'} />
+                <SkillsSection skill={'CSS'} progress={'70%'} length={'70%'} />
+                <SkillsSection skill={'HTML'} progress={'90%'} length={'90%'} />
+                <SkillsSection skill={'Object Oriented Programming'} progress={'40%'} length={'40%'} />
+                <SkillsSection skill={'Data Structures & Algorithms'} progress={'20%'} length={'20%'} />
+                <SkillsSection skill={'Adobe Photoshop'} progress={'80%'} length={'80%'} />
+                <SkillsSection skill={'Adobe Premier Pro'} progress={'90%'} length={'90'} />
+                <SkillsSection skill={'Willingness to Learn'} progress={'100%'} length={'100%'} />
+                <SkillsSection skill={'Coachable'} progress={'100%'} length={'100%'} />
             </div>
 
-            <Title title={'Services'} span={'Services'} />
+            <Title title={'Traits'} span={'Traits'} />
             <div className="servives-container">
             <hr/>
                 <ServicesSection image={webdesign} title={'Web Design'} alt="Ilolo studying at Flatiron School"
