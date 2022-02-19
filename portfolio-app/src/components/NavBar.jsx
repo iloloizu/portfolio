@@ -1,7 +1,7 @@
 import React from 'react';
 import avatar from '../images/avatar.jpeg'
 import { NavLink } from 'react-router-dom';
-import '../styles/navbar.css'
+import '../styles/navbar.scss'
 
 
 function NavBar() {
