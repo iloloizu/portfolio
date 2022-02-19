@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  /* z-index: 10; */
 }
 .NavBar {
   height: 100vh;
@@ -34,14 +35,14 @@ p {
 }
 
 .nav-items {
-  align-items: center;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
 .nav-item {
   list-style: none;
   text-align: center;
-  display: flex;
 }
 
 a {
@@ -51,3 +52,29 @@ a {
   display: block;
   padding: 0.5rem 0;
 }
+
+.active {
+  background-color: #037fff;
+}
+
+li:hover {
+  background-color: #0381ff33;
+}
+/* li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.4rem;
+  height: 100%;
+  background-color: #0381ff33;
+  transform-origin: bottom;
+  transform: scale(0);
+  overflow-x: hidden;
+  transition: transform 0.6s, 0.2s width 0.5s cubic-bezier(1, -0.16, 0.6, 1.35);
+}
+
+li:hover::before {
+  width: 100%;
+  transform: scale(1);
+} */
