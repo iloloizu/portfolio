@@ -1,35 +1,49 @@
-import React from 'react'
-import avatar from "../../public/images/avatar.jpeg"
-import {NavLink} from 'react-router-dom'
+import React from 'react';
+import avatar from '../images/avatar.jpeg'
+import { NavLink } from 'react-router-dom';
+import '../styles/navbar.css'
 
 
-export default function NavBar() {
+function NavBar() {
   return (
     <div className="NavBar">
-        <div className="profile">
-            <img src={avatar} alt="Ilolo Izu" />
-        </div>
         <nav className="nav">
+        <div className="profile">
+            <img src={avatar} alt="Ilolo Izu"/>
+        </div>
             <ul className='nav-items'>
                 <li className="nav-item">
                     <NavLink to="/" exact activeClassName="active">
                         Home
                     </NavLink>
-                    <NavLink to="/" exact activeClassName="active">
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/about" exact activeClassName="active">
                         About
                     </NavLink>
-                    <NavLink to="/" exact activeClassName="active">
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/portfolio" exact activeClassName="active">
                         Portfolio
                     </NavLink>
-                    <NavLink to="/" exact activeClassName="active">
-                        Blog
+                </li>    
+                <li className="nav-item">
+                    <NavLink to="/blogs" exact activeClassName="active">
+                        Blogs
                     </NavLink>
-                    <NavLink to="/" exact activeClassName="active">
-                        Home
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/contact" exact activeClassName="active">
+                        Contact
                     </NavLink>
                 </li>
             </ul>
+            <footer className="footer">
+                <p>©2022 Ilolo Izu</p>
+            </footer>
         </nav>
     </div>
   )
 }
+
+export default NavBar;
