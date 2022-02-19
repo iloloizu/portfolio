@@ -3,7 +3,7 @@ import '../styles/typ.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee } from '@fortawesome/pro-solid-svg-icons';
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function HomePage() {
   return (
