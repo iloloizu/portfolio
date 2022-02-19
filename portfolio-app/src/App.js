@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import '../src/styles/App.css'
-import '../src/styles/app_layout.css'
+import '../src/styles/app_layout.scss'
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import PortfolioPage from './Pages/PortfolioPage';

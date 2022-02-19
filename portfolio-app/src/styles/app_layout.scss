@@ -1,0 +1,54 @@
+.App {
+  .sidebar {
+    width: 16%;
+    height: 100vh;
+    background-color: #191d2b;
+    position: fixed;
+    z-index: 11;
+    border-right: 1px solid #2e344e;
+    transform-origin: left;
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      transform: translateX(-100%);
+      width: 30%;
+    }
+    @media screen and (max-width: 411px) {
+      width: 50%;
+    }
+  }
+  .nav-toggle {
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      transform: translateX(0);
+    }
+  }
+
+  .main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #10121b;
+    min-height: 100vh;
+    background-image: url(../images/dots.svg);
+    display: grid;
+    position: relative;
+    .content {
+      margin: 5rem 15rem;
+      @media screen and (max-width: 1100px) {
+        margin: 2rem 10rem;
+      }
+      @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+      }
+      @media screen and (max-width: 1400px) {
+        margin: 3rem 10rem;
+      }
+      @media screen and (max-width: 710px) {
+        margin: 2rem 3rem;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
