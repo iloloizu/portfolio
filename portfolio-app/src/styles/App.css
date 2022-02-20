@@ -6,6 +6,9 @@
 @import "./_about.scss";
 @import "./_skill.scss";
 @import "./_services.scss";
+@import "./_blogs.scss";
+@import "./_contact.scss";
+@import "./_portfolio.scss";
 
 * {
   padding: 0;
