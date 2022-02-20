@@ -2,9 +2,20 @@ import React from 'react';
 import avatar from '../images/avatar.jpeg'
 import { NavLink } from 'react-router-dom';
 import '../styles/navbar.scss'
+import {useState} from "react"
 
 
 function NavBar() {
+    const [isClicked, setIsClicked] = useState(false)
+
+    function myFunction() {
+      let element = document.body;
+     
+      element.classList.toggle("dark");
+    
+      setIsClicked(isClicked => !isClicked);
+    }
+
   return (
     <div className="NavBar">
         <nav className="nav">
@@ -40,6 +51,7 @@ function NavBar() {
 
             </ul>
             <footer className="footer">
+            <button className="dark-mode-btn" onClick={myFunction}>{isClicked ? "☾" : "☼"}</button><br/>
                 <p>©2022 Ilolo Izu</p>
             </footer>
         </nav>
