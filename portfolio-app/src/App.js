@@ -7,6 +7,7 @@ import AboutPage from './Pages/AboutPage';
 import PortfolioPage from './Pages/PortfolioPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import '../src/styles/_vibrant.scss'
 
 import { useState } from 'react';
 import {Routes, Route} from 'react-router-dom'
@@ -14,13 +15,13 @@ import {Routes, Route} from 'react-router-dom'
 
 
 export default function App() {
-  const [navToggle, setNavToggle] = useState(false);
+  const [navToggle, setNavToggle] = useState(true);
 
   const navClick = () =>{
     setNavToggle(!navToggle)
   }
   return (
-    <div className="App">
+    <div className='App'>
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
         <NavBar />
       </div>

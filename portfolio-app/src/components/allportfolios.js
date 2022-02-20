@@ -53,10 +53,10 @@ const portfolios = [
     {
         id: 5,
         category:  "Pre-Flatiron",
-        link1: '',
+        link1: 'https://iloloizu.github.io/My-new-website/',
         link2: 'https://github.com/iloloizu/My-new-website',
         icon1: "Github",
-        icon2: 'Youtube',
+        icon2: 'Website',
         image: port4,
         title: 'First Portfolio Website',
         paragraph: "This is the first version of this website, built to host my portfolio. Built with HTML, CSS, and Javascript",
