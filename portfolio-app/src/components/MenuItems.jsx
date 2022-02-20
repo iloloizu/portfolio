@@ -14,12 +14,11 @@ function MenuItems({menuItem}) {
                                     <a className="newButtons" href={item.link1}>{item.icon2}</a>
                                 </li>
                             </ul>
-                        </div>
                             <h5 className="hovitems">
                                 {item.title}
                             </h5>
                              <p className="hovitems">{item.paragraph}</p>
-                        <hr/>
+                        </div>
                     </div>
                 })
             }
