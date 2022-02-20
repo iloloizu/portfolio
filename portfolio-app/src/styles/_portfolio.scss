@@ -1,34 +1,4 @@
-.HomePage {
-  /* margin-left: 16%; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-}
-
-.hero-text {
-  color: white;
-  text-align: center;
-  font-size: 3.6rem;
-}
-
-.hero-text span {
-  color: #037fff;
-}
-
-.h-sub-text {
-  text-align: center;
-}
-
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.2rem;
-}
-
-.icon {
+.newButtons {
   margin-right: 1rem;
   cursor: pointer;
   border-radius: 5em;
@@ -46,15 +16,38 @@
   transition: 0.3s;
 }
 
-.icon:hover {
+.newButtons:hover {
   background: linear-gradient(to right, #9c27b0, #e040fb);
   /* background-color: aqua; */
   /* transition: opacity 250ms ease-in, visibility 0ms ease-in 250ms; */
 }
 
-.hovitems {
-  display: flex;
-  align-items: center;
+h5 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #037fff;
+    cursor: pointer;
+  }
+}
+
+.portfolio {
+  background-color: #161925;
+  width: 95%;
+  padding: 1rem;
+  overflow: hidden;
+  align-content: center;
   justify-content: center;
-  padding: 0.75rem;
+  transition: 0.3s;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.image-data img {
+  padding: 10px;
 }

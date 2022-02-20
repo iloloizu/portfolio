@@ -9,7 +9,7 @@ function NavBar() {
     <div className="NavBar">
         <nav className="nav">
         <div className="profile">
-            <img src={avatar} alt="Ilolo Izu"/>
+            <img src={avatar} alt="Ilolo Izu"/><br/>
         </div>
             <ul className='nav-items'>
                 <li className="nav-item">
@@ -37,6 +37,7 @@ function NavBar() {
                         Contact
                     </NavLink>
                 </li>
+
             </ul>
             <footer className="footer">
                 <p>©2022 Ilolo Izu</p>
