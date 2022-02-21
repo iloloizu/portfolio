@@ -5,7 +5,7 @@ import ServicesNoPic from '../components/ServicesNoPic'
 import leadership from '../images/Leadershipweb.png'
 import track from '../images/trackweb.png'
 import Ilolo_Izu_SEC from '../images/Ilolo_Izu_SEC_Runner.jpeg'
-import record from '../images/A_M_world_record_4x4.jpeg'
+import record from '../images/A_M_world_record_4x4.png'
 
 
 export default function Accomplishments() {
