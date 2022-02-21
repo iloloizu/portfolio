@@ -14,7 +14,6 @@ function ImageSelection() {
                     <div className="left-section">
                         <p>Full Name:</p>
                         <p>Age:</p>
-                        <p>Nationality:</p>
                         <p>Languages:</p>
                         <p>Location:</p>
                         <p>Open to Relocate:</p>
@@ -22,7 +21,6 @@ function ImageSelection() {
                     <div className="right-section">
                         <p> Justin Ilolo Izu</p>
                         <p> 24</p>
-                        <p> American</p>
                         <p> English, Spanish (Limited Working Proficiency)</p>
                         <p> Houston, TX, USA</p>
                         <p> Yes </p>

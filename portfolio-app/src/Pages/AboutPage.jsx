@@ -48,6 +48,8 @@ export default function AboutPage() {
 
             </div>
 
+            <Title title={'Accomplishments'} span={'Accomplishments'} />
+
     </div>
   )
 }
