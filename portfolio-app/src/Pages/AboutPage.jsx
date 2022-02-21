@@ -47,9 +47,6 @@ export default function AboutPage() {
                 /> <hr/>
 
             </div>
-
-            <Title title={'Accomplishments'} span={'Accomplishments'} />
-
     </div>
   )
 }

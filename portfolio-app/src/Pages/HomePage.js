@@ -18,7 +18,6 @@ export default function HomePage() {
             I am transitioning from years of experience in the Medical Field. I'm currently enrolled in the Software Engineering program at Flatiron School. 
           </p>
           <div className='icons'>
-            {/* <Link> https://www.linkedin.com/in/ilolo-izu/ </Link> */}
             <a href='https://www.linkedin.com/in/ilolo-izu/' className='icon'>LinkedIn</a>
             <a href='https://twitter.com/iloloizu' className='icon'>Twitter</a>
             <a href='https://ilolo.medium.com/' className='icon'>Blog</a>

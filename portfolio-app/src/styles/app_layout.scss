@@ -2,10 +2,10 @@
   .sidebar {
     width: 16%;
     height: 100vh;
-    background-color: #191d2b;
+    background-color: #191d2bf5;
+    background-image: url(../images/dots.svg);
     position: fixed;
     z-index: 11;
-    border-right: 1px solid #2e344e;
     transform-origin: left;
     @media screen and (max-width: 1000px) {
       transition: all 0.4s ease-in-out;
@@ -28,7 +28,9 @@
     margin-left: 16%;
     background-color: #10121bf9;
     min-height: 100vh;
-    background-image: url(../images/dots.svg);
+    background-image: url(../images/Gradient-Blur-2.jpg);
+    background-size: 3400px;
+    background-position: center;
     display: grid;
     position: relative;
     .content {
@@ -71,7 +73,7 @@
   .lines-3 {
     height: 0.4rem;
     width: 100%;
-    background-color: #3858cc;
+    background-color: #037fff;
     pointer-events: none;
     border-radius: 20px;
     &:not(:last-child) {

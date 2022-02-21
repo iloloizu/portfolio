@@ -8,6 +8,7 @@ import PortfolioPage from './Pages/PortfolioPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import '../src/styles/_vibrant.scss'
+import Accomplishments from './Pages/Accomplishments';
 
 import { useState } from 'react';
 import {Routes, Route} from 'react-router-dom'
@@ -33,15 +34,20 @@ export default function App() {
       <div className="main-content">
         <div className="content"> 
           <Routes>
+             
               <Route path="/home" element={<HomePage/>}>
               </Route>
               <Route path="/about" element={<AboutPage/>}>
               </Route>
-              <Route path="/portfolio" element={<PortfolioPage/>}>
+              <Route path="/portfolios" element={<PortfolioPage/>}>
               </Route>
               <Route path="/blogs" element={<BlogsPage/>}>
               </Route>
               <Route path="/contact" element={<ContactPage/>}>
+              </Route>
+              <Route path="/awards" element={<Accomplishments/>}>
+              </Route>
+              <Route path="/" element={<HomePage/>}>
               </Route>
           </Routes>
           </div>

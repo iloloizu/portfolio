@@ -7,7 +7,6 @@
     background-image: url(../images/dots.svg);
     position: fixed;
     z-index: 11;
-    border-right: 1px solid #2e344e3c;
     transform-origin: left;
     @media screen and (max-width: 1000px) {
       transition: all 0.4s ease-in-out;
@@ -30,7 +29,7 @@
     width: 84%;
     margin-left: 16%;
     min-height: 100vh;
-    background: linear-gradient(to right, #c3c4c6, #2e344e);
+    background-image: linear-gradient(to right, #c3c4c6, #2e344e);
     display: grid;
     position: relative;
     .content {
