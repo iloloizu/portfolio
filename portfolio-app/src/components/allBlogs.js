@@ -5,9 +5,19 @@ const blog4 = "https://miro.medium.com/max/1400/1*biGXuTtmeKWAtzd6_QAK6Q.jpeg"
 const blog5 = "https://miro.medium.com/max/1400/1*hPFJwDLsLng-AEFin8IAOg.jpeg"
 const blog6 = "https://miro.medium.com/max/1400/1*OVvPD2RDLdpaijieATc52w.jpeg"
 const blog7 = "https://miro.medium.com/max/1400/1*vgqmgxAUeiKbUFYmnrUpsw.jpeg"
+const blog8 = "https://miro.medium.com/max/700/1*RyftmgpGjH1yx45GtvTb_A.jpeg"
 
 
 const blogs = [
+    {
+        id: 8,
+        image: blog8,
+        title: 'Phase 3: Getting to Know Ruby',
+        link: 'https://ilolo.medium.com/phase-3-getting-to-know-ruby-484b0fdd2b2c',
+        date : '22',
+        month: 'Feb',
+        year: '2022'
+    },
     {
         id: 7,
         image: blog7,
