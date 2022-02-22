@@ -24,7 +24,7 @@ export default function Accomplishments() {
                 <br/><ServicesNoPic title={`Dean's List, Spring 2017`} text={`Issued by College of Education and Human Development · May 2017`} /> 
                 <hr/>
                 <ServicesSection image={record} alt={"Ilolo Izu, World Record"} title={'American and World Record Holder in the Indoor 4x400m Relay'} text={'Issued by IAAF, NCAA Athletics, USATF · March 2018'} /> 
-                <ServicesSection image={track} title={'3x First Team All-American, 1x 2nd Team All-American'} alt="Ilolo winning Texas Relays in the 400 meter hurdles"
+                <br/><ServicesSection image={track} title={'3x First Team All-American, 1x 2nd Team All-American'} alt="Ilolo winning Texas Relays in the 400 meter hurdles"
                 text={`Finished in the Top 8 of All Men's Division 1 NCAA Track and Field at the NCAA Championships. Indoors 2018, Outdoors 2018, Indoors 2019.
                 2nd Team indicates a top 16 finish. Outdoors 2018.`}
                 /> 
