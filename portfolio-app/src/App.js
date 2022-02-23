@@ -34,7 +34,8 @@ export default function App() {
       <div className="main-content">
         <div className="content"> 
           <Routes>
-             
+          <Route path="/" element={<HomePage/>}>
+              </Route>
               <Route path="/home" element={<HomePage/>}>
               </Route>
               <Route path="/about" element={<AboutPage/>}>
@@ -47,8 +48,7 @@ export default function App() {
               </Route>
               <Route path="/awards" element={<Accomplishments/>}>
               </Route>
-              <Route path="/" element={<HomePage/>}>
-              </Route>
+              
           </Routes>
           </div>
       </div>
