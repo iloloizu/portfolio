@@ -34,7 +34,7 @@ export default function App() {
       <div className="main-content">
         <div className="content"> 
           <Routes>
-          <Route path="/" element={<HomePage/>}>
+              <Route path="/" element={<HomePage/>}>
               </Route>
               <Route path="/home" element={<HomePage/>}>
               </Route>
