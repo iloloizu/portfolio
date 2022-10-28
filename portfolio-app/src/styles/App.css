@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap");
 @import "./navbar.scss";
-@import "./typ.css";
+@import "./typ.scss";
 @import "./title.css";
 @import "./app_layout.scss";
 @import "./_about.scss";
@@ -17,6 +17,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition: 0.3s;
 }
 
 html {
