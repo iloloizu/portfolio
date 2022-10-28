@@ -3,9 +3,9 @@
     width: 16%;
     height: 100vh;
     background-color: #191d2b;
+    background-image: url(../images/dots.svg);
     position: fixed;
     z-index: 11;
-    border-right: 1px solid #2e344e;
     transform-origin: left;
     @media screen and (max-width: 1000px) {
       transition: all 0.4s ease-in-out;
