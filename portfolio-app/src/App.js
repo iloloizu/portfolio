@@ -21,17 +21,20 @@ export default function App() {
   const navClick = () =>{
     setNavToggle(!navToggle)
   }
+  
   return (
     <div className='App'>
-      <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
+      <div className="side-bar-nav">
+      <div className={navToggle ? 'sidebar': 'nav-toggle'}>
         <NavBar />
+      </div>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content">
+      <div id="content-display" className={navToggle ? "main-content" : "main-content-margin-left-adj"}>
         <div className="content"> 
           <Routes>
               <Route path="/" element={<HomePage/>}>
