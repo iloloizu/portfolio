@@ -51,12 +51,12 @@ export default function App() {
               
           </Routes>
           </div>
-      </div>
-      <div className="starfield">
+          <div className="starfield">
           <div id='stars'></div>
           </div>
           <div id='stars2'></div>
           <div id='stars3'></div>
+      </div>
     </div>
     
   )
