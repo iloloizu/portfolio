@@ -20,7 +20,6 @@
 }
 
 html {
-  transition: 0.3s;
   background-color: #10121b;
 }
 
@@ -631,3 +630,4 @@ body::-webkit-scrollbar-track {
     transform: translateY(-2000px);
   }
 }
+

@@ -24,10 +24,8 @@ export default function App() {
   
   return (
     <div className='App'>
-      <div className="side-bar-nav">
       <div className={navToggle ? 'sidebar': 'nav-toggle'}>
         <NavBar />
-      </div>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>
