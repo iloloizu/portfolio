@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/typ.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faLinkedin, faMedium, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function HomePage() {
   return (
@@ -16,10 +18,18 @@ export default function HomePage() {
              I am currently seeking new roles.
           </p>
           <div className='icons'>
-            <a href='https://www.linkedin.com/in/ilolo-izu/' className='icon'>LinkedIn</a>
-            <a href='https://twitter.com/iloloizu' className='icon'>Twitter</a>
-            <a href='https://ilolo.medium.com/' className='icon'>Blog</a>
-            <a href='https://github.com/iloloizu' className='icon'>Github</a>
+            <a href='https://www.linkedin.com/in/ilolo-izu/' className='icon'>LinkedIn 
+              <FontAwesomeIcon icon={faLinkedin} className="homepage-icon"/>
+            </a>
+            <a href='https://twitter.com/iloloizu' className='icon'>Twitter
+              <FontAwesomeIcon icon={faTwitter} className="homepage-icon"/>
+            </a>
+            <a href='https://ilolo.medium.com/' className='icon'>Blog
+              <FontAwesomeIcon icon={faMedium}  className="homepage-icon"/>
+            </a>
+            <a href='https://github.com/iloloizu' className='icon'>Github
+              <FontAwesomeIcon icon={faGithub} className="homepage-icon"/>
+            </a>
           </div>
         </div>
     </div>

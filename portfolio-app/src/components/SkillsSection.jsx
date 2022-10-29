@@ -6,8 +6,8 @@ function SkillsSection({skill, progress, length, icon}) {
         <div className="SkillsSection">
             <div className="skills-container">
                 <div className="skill-header">
-                <h5 className="skill-title">{skill}</h5>
-                <FontAwesomeIcon className="language-icon" icon={icon} />
+                    <h5 className="skill-title">{skill}</h5>
+                    <FontAwesomeIcon className="language-icon" icon={icon} />
                 </div>
                 <div className="skill-bar">
                     <p className="skill-text">{progress}</p>

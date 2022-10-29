@@ -17,10 +17,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  transition: 0.3s;
 }
 
 html {
+  transition: 0.3s;
   background-color: #10121b;
 }
 

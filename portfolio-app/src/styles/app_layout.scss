@@ -1,6 +1,8 @@
 .App {
+
   // this is the dark mode version of the sidebar
   .sidebar {
+    transition: 0.3s;
     width: 16%;
     height: 100vh;
     background-color: #191d2bf5;
@@ -20,7 +22,7 @@
   .nav-toggle {
     transform: translateX(-100%);
     transition: 0.3s;
-    width: 33%;
+    width:40%;
     height: 100vh;
     background-color: #191d2bf5;
     background-image: url(../images/dots.svg);
@@ -48,7 +50,6 @@
     position: relative;
     overflow: hidden;
     .content {
-      
       z-index: 11!important;
       margin: 5rem 15rem;
       @media screen and (max-width: 1100px) {
