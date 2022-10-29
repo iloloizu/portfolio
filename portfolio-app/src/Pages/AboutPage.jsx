@@ -8,9 +8,12 @@ import photography from '../images/Photography.jpg'
 import webdesign from '../images/WebDesign.JPG'
 import track from '../images/trackweb.png'
 
-import { faReact, faPython, faVuejs, faHtml5, faCss3, faSass, faGithub, faBootstrap, faJava } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faPython, faVuejs, faHtml5, faCss3, faSass, faGithub, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
 export default function AboutPage() {
+
+  const rippleMatch = "https://media-exp1.licdn.com/dms/image/C5622AQH-i00mEmGFjw/feedshare-shrink_2048_1536/0/1654040507406?e=1669852800&v=beta&t=oZstMr2vtBF9rqd5aarodciqZbkMBz1Szg_VlWn6-PA"
+
   return (
     <div>
       <Title title={'About Me'} span={'About Me'}/>
@@ -44,6 +47,8 @@ export default function AboutPage() {
             <Title title={'Traits'} span={'Traits'} />
             <div className="servives-container">
             <hr/>
+                <ServicesSection image={rippleMatch} title={'Professional Experience'} text={'Associate Software Engineer at RippleMatch. During my time at RippleMatch, I worked as a Full-Stack Software Engineer primarily with Vue.js, Python, Jest, and SQLAlchemy. I worked with key stake holders and Senior Engineers in an Agile Environment to build scalable features from concept to implementation. I also gave a live demo presentation to the entire company. You can find more in my resume linked above.'} /> 
+                <hr/>
                 <ServicesSection image={webdesign} title={'Web Design'} alt="Ilolo studying at Flatiron School"
                 text={`In November of 2021 I took a leap of faith and enrolled Software Engineering Bootcamp—and I've yet to look back. Flatiron School is a Full-stack web development in Ruby on Rails, JavaScript (ES6), React, Redux, HTML5, CSS3, API Development, Authentication and Authorization, Object-Oriented Programming, SQL, Sinatra, ActiveRecord, JSON.`}
                 /> <hr/>

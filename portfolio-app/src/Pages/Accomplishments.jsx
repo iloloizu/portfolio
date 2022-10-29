@@ -6,6 +6,7 @@ import leadership from '../images/Leadershipweb.png'
 import track from '../images/trackweb.png'
 import Ilolo_Izu_SEC from '../images/Ilolo_Izu_SEC_Runner.jpeg'
 import record from '../images/A_M_world_record_4x4.png'
+import bttrprg from '../images/bttrprg.jpg'
 
 
 export default function Accomplishments() {
@@ -15,6 +16,7 @@ export default function Accomplishments() {
     <div>
         <Title title={'Accomplishments'} span={'Accomplishments'} />
             <div className="servives-container">
+                <br/><ServicesSection image={bttrprg} title={'Access Scholarship'} text={'Associated with Flatiron School · December 2021'} /> 
                 <br/><ServicesSection image={blog3} title={'Access Scholarship'} text={'Associated with Flatiron School · December 2021'} /> 
                 <hr/><ServicesSection image={blog1} title={'NCAA Postgraduate Scholarship Award Recipient'} text={'Issued by NCAA · May 2021'} /> 
                 <hr/><ServicesSection image={leadership} title={'Distinguished Letterman Award'} alt="Ilolo receiving the Distinguished Letterman's Award" 
