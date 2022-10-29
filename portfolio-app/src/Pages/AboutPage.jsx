@@ -8,6 +8,8 @@ import photography from '../images/Photography.jpg'
 import webdesign from '../images/WebDesign.JPG'
 import track from '../images/trackweb.png'
 
+import { faReact, faPython, faVuejs, faHtml5, faCss3, faSass, faGithub, faBootstrap, faJava } from '@fortawesome/free-brands-svg-icons'
+
 export default function AboutPage() {
   return (
     <div>
@@ -16,18 +18,27 @@ export default function AboutPage() {
       <ImageSelection />
             <Title title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'75%'} length={'75%'} />
-                <SkillsSection skill={'Ruby'} progress={'60%'} length={'60%'} />
-                <SkillsSection skill={'ReactJS'} progress={'75%'} length={'75%'} />
+                <SkillsSection skill={'Javascript'} progress={'85%'} length={'85%'}/>
+                <SkillsSection skill={'Ruby'} progress={'60%'} length={'60%'}/>
+                <SkillsSection skill={'ReactJS'} progress={'75%'} length={'75%'} icon={faReact} />
+                <SkillsSection skill={'Github'} progress={'80%'} length={'80%'} icon={faGithub} />
+                <SkillsSection skill={'Bootstrap'} progress={'75%'} length={'75%'} icon={faBootstrap} />
+                <SkillsSection skill={'ThreeJS'} progress={'45%'} length={'45%'}/>
+                <SkillsSection skill={'Material UI'} progress={'75%'} length={'75%'}/>
+                <SkillsSection skill={'Vue.js'} progress={'70%'} length={'70%'} icon={faVuejs} />
+                <SkillsSection skill={'Python'} progress={'30%'} length={'30%'} icon={faPython} />
+                <SkillsSection skill={'CSS'} progress={'80%'} length={'80%'} icon={faCss3} />
+                <SkillsSection skill={'HTML'} progress={'90%'} length={'90%'} icon={faHtml5} />
+                <SkillsSection skill={'Sass'} progress={'90%'} length={'90%'} icon={faSass} />
+                <SkillsSection skill={'Object Oriented Programming'} progress={'60%'} length={'60%'} />
+                <SkillsSection skill={'Data Structures & Algorithms'} progress={'50%'} length={'50%'}/>
                 <SkillsSection skill={'SQLite'} progress={'40%'} length={'40%'} />
-                <SkillsSection skill={'CSS'} progress={'70%'} length={'70%'} />
-                <SkillsSection skill={'HTML'} progress={'90%'} length={'90%'} />
-                <SkillsSection skill={'Object Oriented Programming'} progress={'40%'} length={'40%'} />
-                <SkillsSection skill={'Data Structures & Algorithms'} progress={'20%'} length={'20%'} />
                 <SkillsSection skill={'Adobe Photoshop'} progress={'80%'} length={'80%'} />
-                <SkillsSection skill={'Adobe Premier Pro'} progress={'90%'} length={'90'} />
+                <SkillsSection skill={'Adobe Premier Pro'} progress={'90%'} length={'90%'} />
+                <SkillsSection skill={'State Managment'} progress={'70%'} length={'70%'} />
                 <SkillsSection skill={'Willingness to Learn'} progress={'100%'} length={'100%'} />
                 <SkillsSection skill={'Coachable'} progress={'100%'} length={'100%'} />
+                <SkillsSection skill={'Leadership'} progress={'100%'} length={'100%'} />
             </div>
 
             <Title title={'Traits'} span={'Traits'} />
