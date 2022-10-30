@@ -10,7 +10,6 @@
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: "Ubuntu", sans-serif;
-  /* padding: 10px; */
   font-size: 13px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
   transition: 0.3s;
@@ -68,4 +67,63 @@ li {
   color: #161925 !important;
   transform: translate(4px, 3px);
   box-shadow: inset 5em 1em #47a3ff;
+}
+
+.portfolios-content{
+  margin-left: -2rem;
+}
+
+.experiencePage {
+  background-image: linear-gradient(135deg,#54545441,#171717b1);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.experiencePage img {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.row { 
+  text-align: left;
+  max-width: max(100%, 500px);
+  padding-top: 0.75rem;
+}
+
+.col {
+  padding: 0 15px; 
+}
+
+.col > * {
+  list-style: none;
+  padding: 0px;
+}
+
+.col ul {
+  margin-bottom: 50px;
+}
+
+.col > * > li {
+  color: white;
+  padding-left: 35px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+ul li:before {
+  content: '◁';
+  position: absolute;
+  border-radius: 50%;
+  top: 5px;
+  left: 15px;
+  margin-top: -2px;
+  font-size: small;
+}
+
+.li_included {
+  font-size: medium;
+}
+
+.experience_page_title {
+margin-bottom: 3rem;
 }

@@ -51,10 +51,6 @@ h6 {
   }
 }
 
-.contact-sect {
-  width: 100%;
-}
-
 .map-sect {
   background-image: linear-gradient(135deg,#54545441,#171717b1);
   border-radius: 20px;
@@ -83,6 +79,16 @@ iframe {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 1rem;
+  @media screen and (max-width: 1270px) {
+  width: 140%;
+ }
 }
 
 .title {

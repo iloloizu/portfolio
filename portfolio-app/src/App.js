@@ -9,11 +9,10 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import '../src/styles/_vibrant.scss'
 import Accomplishments from './Pages/Accomplishments';
+import ExperiencePage from './Pages/ExperiencePage';
 
 import { useState } from 'react';
 import {Routes, Route} from 'react-router-dom'
-
-
 
 export default function App() {
   const [navToggle, setNavToggle] = useState(true);
@@ -40,6 +39,8 @@ export default function App() {
               <Route path="/home" element={<HomePage/>}>
               </Route>
               <Route path="/about" element={<AboutPage/>}>
+              </Route>
+              <Route path="/experience" element={<ExperiencePage/>}>
               </Route>
               <Route path="/portfolios" element={<PortfolioPage/>}>
               </Route>
