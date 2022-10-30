@@ -9,10 +9,10 @@ function MenuItems({menuItem}) {
                         <div className="image-data">
                             <img src={item.image} alt="Ilolo's Project"/>
                             <ul className="hovitems">
-                                <li >
+                                <ol >
                                     <a className="newButtons" href={item.link2} target="_blank" rel="noreferrer">{item.icon1}</a>
                                     <a className="newButtons" href={item.link1} target="_blank" rel="noreferrer">{item.icon2}</a>
-                                </li>
+                                </ol>
                             </ul>
                             <h5 className="hovitems">
                                 {item.title}
