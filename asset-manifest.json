@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.17b91a80.css",
-    "main.js": "/portfolio/static/js/main.beb34211.js",
+    "main.css": "/portfolio/static/css/main.c14a29ba.css",
+    "main.js": "/portfolio/static/js/main.5f3302c3.js",
     "static/js/787.30237536.chunk.js": "/portfolio/static/js/787.30237536.chunk.js",
+    "static/media/blog11.gif": "/portfolio/static/media/blog11.d67f1a45a39ac2bc16a2.gif",
+    "static/media/spacecitysneakers.png": "/portfolio/static/media/spacecitysneakers.44e60acbcdd01ede6743.png",
     "static/media/trackweb.png": "/portfolio/static/media/trackweb.08fd04a98b16a1b47acd.png",
     "static/media/Photography.jpg": "/portfolio/static/media/Photography.e558a8d983cebe29cf41.jpg",
     "static/media/Leadershipweb.png": "/portfolio/static/media/Leadershipweb.86442009f9422ca71142.png",
+    "static/media/Gradient-Blur-2.jpg": "/portfolio/static/media/Gradient-Blur-2.075f513d1d781dacce9c.jpg",
     "static/media/about.png": "/portfolio/static/media/about.806925b1be3755837170.png",
     "static/media/Oishii.png": "/portfolio/static/media/Oishii.cbfa1d7983476b03ca49.png",
     "static/media/FirstWeb.png": "/portfolio/static/media/FirstWeb.8429218f33d53a736e44.png",
+    "static/media/A_M_world_record_4x4.png": "/portfolio/static/media/A_M_world_record_4x4.8a28c59b044b4c42a18f.png",
+    "static/media/blog14.png": "/portfolio/static/media/blog14.e52c79a1049d4aa3c06c.png",
+    "static/media/eldenringwikiapp.png": "/portfolio/static/media/eldenringwikiapp.fcda59ec74e9f9161a88.png",
     "static/media/WebDesign.JPG": "/portfolio/static/media/WebDesign.f93c378d36ffe3641573.JPG",
     "static/media/Backend.png": "/portfolio/static/media/Backend.22e15ceb69f427287daf.png",
+    "static/media/blog12.png": "/portfolio/static/media/blog12.c9f45ec053cc7ca8548a.png",
     "static/media/Take a Hint.png": "/portfolio/static/media/Take a Hint.e15b1bb7985b62d20e4f.png",
     "static/media/dots.svg": "/portfolio/static/media/dots.9978678b9b3cb292d679.svg",
+    "static/media/Ilolo_Izu_SEC_Runner.jpeg": "/portfolio/static/media/Ilolo_Izu_SEC_Runner.2de20ec32a7cc9c6bd14.jpeg",
+    "static/media/blog13.png": "/portfolio/static/media/blog13.4624b475ff32390e46a8.png",
+    "static/media/blog9.jpg": "/portfolio/static/media/blog9.91dec07f25d960e12c2d.jpg",
+    "static/media/blog10.jpg": "/portfolio/static/media/blog10.231e5666d521b5cbc315.jpg",
     "static/media/avatar.jpeg": "/portfolio/static/media/avatar.314c5504cf234a1a6ff9.jpeg",
     "static/media/google-maps.png": "/portfolio/static/media/google-maps.1f5522be8d7925e6bcbd.png",
     "static/media/phone.png": "/portfolio/static/media/phone.cfea9f9604820595a483.png",
     "static/media/mail.png": "/portfolio/static/media/mail.4096476f6a9b4745fa40.png",
     "index.html": "/portfolio/index.html",
-    "main.17b91a80.css.map": "/portfolio/static/css/main.17b91a80.css.map",
-    "main.beb34211.js.map": "/portfolio/static/js/main.beb34211.js.map",
+    "main.c14a29ba.css.map": "/portfolio/static/css/main.c14a29ba.css.map",
+    "main.5f3302c3.js.map": "/portfolio/static/js/main.5f3302c3.js.map",
     "787.30237536.chunk.js.map": "/portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b91a80.css",
-    "static/js/main.beb34211.js"
+    "static/css/main.c14a29ba.css",
+    "static/js/main.5f3302c3.js"
   ]
 }
