@@ -1,6 +1,4 @@
 .App {
-
-  // this is the dark mode version of the sidebar
   .sidebar {
     transition: 0.3s;
     width: 16%;
@@ -35,8 +33,7 @@
       transform: translateX(0);
     }
   }
-
-  // this is the dark mode version of the site
+  
   .main-content {
     transition: 0.3s;
     width: 84%;
